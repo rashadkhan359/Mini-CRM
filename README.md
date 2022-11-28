@@ -52,4 +52,6 @@ It also has mode feature and duration feature.
 ### Aerial Method
 
 
-## Thank you
+## Needs Improvement
+
+There are few repititions of code which can be very easily removed but definitely needs more time to do. Few features are missing that can be added later.
