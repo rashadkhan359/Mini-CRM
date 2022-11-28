@@ -16,8 +16,9 @@ class CompanyController extends Controller
     }
 
     public function show($id){
-        $data = Company::find($id);
-        return view('/company.show', ['data' => $data]);
+        $cdata = Company::find($id);
+        $edata = Employees::orderBy('firstname', 'asc')->filter($id)->get();
+        return view('/company.show', ['data' => $cdata, 'employees' => $edata]);
     }
 
     public function create(){

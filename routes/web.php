@@ -30,7 +30,7 @@ Route::middleware('admin')->group(function (){
     //Dashboard
     Route::get('dashboard', [HomeController::class, 'index']);
 
-    // Dashboard View
+    //Employees View from Dashboard
     Route::get('/employees/{id}/view',  [EmployeesController::class, 'sub_employees']);
 
     //Company Resource
