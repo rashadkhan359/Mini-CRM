@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Admin;
-use App\Models\Company;
-use App\Models\Employees;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller

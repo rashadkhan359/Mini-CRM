@@ -37,7 +37,7 @@
                             <div class='form-row row'>
                                 <div class='col-xs-12 form-group required'>
                                     <label class='control-label'>Amount</label>
-                                    <input class='form-control' name='amount' type='text'/>
+                                    <input class='form-control' name='amount' type='number'/>
                                 </div>
                             </div>
 

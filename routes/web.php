@@ -29,6 +29,7 @@ Route::post('/admin/authenticate', [AdminController::class, 'authenticate']);
 Route::middleware('admin')->group(function (){
     //Dashboard
     Route::get('dashboard', [HomeController::class, 'index']);
+    Route::get('/', [HomeController::class, 'index']);
 
     //Employees View from Dashboard
     Route::get('/employees/{id}/view',  [EmployeesController::class, 'sub_employees']);
